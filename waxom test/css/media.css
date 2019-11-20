@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  .stat .fa-utensils{
+    padding-top: 35px;
+  }
+    
+    .second .def h3{
+        margin-bottom: 40px
+    }
+    .projects .gallery a{
+        padding: 3px 7px;
+    }
+    
+    .card{
+        margin: auto;
+        margin-top: 20px;
+    }
+}

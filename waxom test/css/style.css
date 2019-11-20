@@ -1,0 +1,112 @@
+body{text-transform: capitalize;}
+header{
+    background-image: url(photos/header.jfif);
+    background-size: cover;
+    color: #fff
+}
+.navbar-brand,.navbar a{color: #fff}
+.navbar a:active{color: #5d4b44}
+.navbar input[type="search"]{
+    display: none;background-color: rgba(2, 2, 2, 0.5);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.navbar .fa-search{cursor: pointer;margin-left: 10px}
+.carousel{ padding: 6% 0  ;}
+.carousel input[type=submit]{
+    margin: 7%;
+    padding: 7px 25px;
+    background-color: #766c6c;
+    color: #fff;
+    border: 1px solid #ffbcbc40;
+
+}
+.header>div{
+        background-color: rgba(2,2,2,0.2);
+}
+.carousel-indicators li{width: 15px;height: 15px;border-radius: 50%;background-color: none;border: 2px eolid #333}
+/************************************************************/
+.second{
+    padding: 5% 0
+}
+.second .under{
+    height: 3px;
+    border-radius: 20%;
+    background-color: #eee;
+    margin: 2% 0 10% 23%;
+    width: 56%;
+}
+.second .def .under{background-color: red}
+.second .def h3,.second .fa-layer-group {color: red}
+/************************************************************/
+.third{background-color: #eee;padding: 5% 0 0;}
+.third .works img{height: 500px;width: 100%; margin-top: 25px;border-radius: 20px 20px 0 0;}
+/************************************************************/
+.multi{    background-color: #5d4b44;
+    color: #fff;    padding: 23px 0;}
+button{text-transform: uppercase;    margin-top: 4%;}
+/************************************************************/
+.projects{transition: all .5s ease-in-out}
+.projects .gallery a{    color: black;
+    border: 1px solid black;
+    padding: 3px 14px;
+    border-radius: 3px;
+    transition: all .3s ease-in-out
+}
+.projects .gallery a:first-child{background-color:  #5d4b44;color: #fff}
+.projects .gallery{margin:3% 0 4%}
+.projects .gallery a:hover{text-decoration: none;background-color:  #5d4b44;color: #fff}
+.projects .myImg img{    margin-right: 10px;}
+.projects .row .col .span{width: 20px;height: 20px;transform: rotate(135deg);background-color: #fff;margin-top: -4px;
+    margin-left: 38px;margin-bottom: -18px;}
+.projects .card{margin-bottom: 7%;}
+.projects .card-body{margin-bottom: -1px;}
+/************************************************************/
+.video{background-image: url(photos/header.jfif);background-size: cover;padding: 7% 0 4%;;
+    margin-top: 3%;color: #fff
+}
+.video .shadow{    background-color: rgba(2, 2, 2, 0.24);
+    border-radius: 50%;
+    width: 8%;
+    padding: 4px 4px;    margin-bottom: 2%;}
+/************************************************************/
+.device{background-color: #FBFAF8}
+.device .list-unstyled{padding-left: 50px}
+.device .col .fa-chevron-circle-right{color: #bfa888}
+/************************************************************/
+.stat{padding: 3%;
+    background-color: #483026;
+    color: #fff;}
+.stat i {margin-bottom: 10px;}
+.stat span{    position: absolute;
+    width: 56px;
+    height: 2.5px;
+    background-color: #fff;
+    margin: 0 -24px;}
+/************************************************************/
+.posts {padding: 4% 0;}
+.posts .card i {font-size: 12px}
+.posts .card img{width: 286px;height: 180px}
+.posts .walk i{    color: white;
+    background-color: #483026;
+    border-radius: 50%;
+    border: 2px solid #b08f8f;
+    cursor: pointer;}
+.activeOne{background-color:#372f2d;color: #fff}
+/************************************************************/
+.logo{background-image:url(photos/3.png);background-size: cover}
+.logo .logo-holder{background-color: rgba(36, 36, 36, 0.75);padding: 5%}
+.logo img{width: 255px}
+/************************************************************/
+.about{background-color: #191919;color: #fff}
+.about a{color: #fff}
+.about a:hover{color:#06a1cf}
+/************************************************************/
+.about{padding: 5% 0}
+.about .last-img img{     float: left;
+    width: 48%;
+    margin:0 2% 2% 0;
+    border: 3px solid #06a1cf;;}
+
+footer{background-color: #111111;color: #fff;padding: 1% 0 0;}
